@@ -1,0 +1,42 @@
+body {
+  /* background-color: #2e3440; */
+  /* background-image: url('http://images4.alphacoders.com/270/27094.jpg'); */
+  /* background-image: url('http://vanessametonini.com.br/imersaocss/a1/img/fundo.jpg'); */
+  background-image: url('https://objectpascalprogramming.com/images/2018/photo-maik-jonietz-535261-unsplash.jpg');
+  background-size: auto 100vh;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+
+}
+
+.menu {
+  background-color: #fff;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title,
+.site-subtitle {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
